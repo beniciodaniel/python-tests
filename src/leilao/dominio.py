@@ -31,16 +31,17 @@ class Leilao:
 class Avaliador:
 
     def __init__(self):
-        self.maior_lance = 0.0
-        self.menor_lance = 0.0
+        self.maior_lance = float_info.min
+        self.menor_lance = float_info.max
 
     def avalia(self, leilao: Leilao):
 
         for lance in leilao.lances:
+
             if lance.valor > self.maior_lance:
-                self.menor_lance = self.maior_lance
                 self.maior_lance = lance.valor
 
-            elif lance.valor < self.maior_lance:
+            if lance.valor < self.menor_lance:
                 self.menor_lance = lance.valor
+
 

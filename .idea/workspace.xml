@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1fd351f9-d33a-4b64-a124-f997060fc03b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/dominio.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/dominio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/principal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/test_avaliador.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/test_avaliador.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +17,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.48342246">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/leilao/dominio.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-10">
-                  <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+                <state relative-caret-position="820">
+                  <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/leilao/test_avaliador.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="1027">
+                  <caret line="76" selection-start-line="76" selection-end-line="76" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -38,12 +41,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/leilao/principal.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                <state relative-caret-position="483">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
@@ -67,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/leilao/principal.py" />
-        <option value="$PROJECT_DIR$/src/leilao/dominio.py" />
         <option value="$PROJECT_DIR$/src/leilao/test_avaliador.py" />
+        <option value="$PROJECT_DIR$/src/leilao/dominio.py" />
       </list>
     </option>
   </component>
@@ -86,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,6 +115,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_avaliador.py">
+  <component name="RunManager" selected="Python.principal">
     <configuration name="principal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,6 +176,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leilao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_avaliador.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,9 +208,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.principal" />
+        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance" />
         <item itemvalue="Python tests.Unittests in test_avaliador.py" />
         <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_avalia" />
-        <item itemvalue="Python.principal" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +226,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577226369530</updated>
       <workItem from="1577226370801" duration="146000" />
-      <workItem from="1577226645460" duration="8120000" />
+      <workItem from="1577226645460" duration="8489000" />
+      <workItem from="1577295575803" duration="4169000" />
     </task>
     <servers />
   </component>
@@ -218,21 +238,27 @@
     <history-entry file="Unittests_in_test_avaliador_py - 2019.12.25 at 12h 15m 31s.xml">
       <configuration name="Unittests in test_avaliador.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_avaliador_py - 2019.12.25 at 15h 42m 32s.xml">
+      <configuration name="Unittests in test_avaliador.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance - 2019.12.25 at 16h 50m 56s.xml">
+      <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8266000" />
+    <option name="totallyTimeSpent" value="12804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-540" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2573471" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2593328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21861152" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22230428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -256,8 +282,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador_test_avalia.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_avalia Coverage Results" MODIFIED="1577283292690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
-    <SUITE FILE_PATH="coverage/python_tests$principal.coverage" NAME="principal Coverage Results" MODIFIED="1577241063505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
-    <SUITE FILE_PATH="coverage/python_tests$Unittests_in_test_avaliador_py.coverage" NAME="Unittests in test_avaliador.py Coverage Results" MODIFIED="1577283331163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
+    <SUITE FILE_PATH="coverage/python_tests$principal.coverage" NAME="principal Coverage Results" MODIFIED="1577300519434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
+    <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance Coverage Results" MODIFIED="1577299856280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
+    <SUITE FILE_PATH="coverage/python_tests$Unittests_in_test_avaliador_py.coverage" NAME="Unittests in test_avaliador.py Coverage Results" MODIFIED="1577295752177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -270,27 +297,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leilao/principal.py">
+    <entry file="file://$PROJECT_DIR$/src/leilao/test_avaliador.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="1027">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leilao/dominio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="820">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leilao/test_avaliador.py">
+    <entry file="file://$PROJECT_DIR$/src/leilao/principal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
