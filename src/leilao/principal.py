@@ -3,7 +3,7 @@ from src.leilao.dominio import Usuario, Lance, Leilao, Avaliador
 beni = Usuario("Beni")
 daniel = Usuario("Daniel")
 
-lance_do_beni = Lance(beni, 100.00)
+lance_do_beni = Lance(beni, 140.00)
 lance_do_daniel = Lance(daniel, 150.00)
 
 leilao = Leilao("Celular")
