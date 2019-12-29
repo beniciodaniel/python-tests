@@ -13,8 +13,8 @@ class TestAvaliador(TestCase):
         self.daniel = Usuario("Daniel")
         self.lance_do_daniel = Lance(self.daniel, 150.00)
 
-        self.leilao.lances.append(self.lance_do_beni)
-        self.leilao.lances.append(self.lance_do_daniel)
+        self.leilao.propoe(self.lance_do_beni)
+        self.leilao.propoe(self.lance_do_daniel)
 
         avaliador = Avaliador()
         avaliador.avalia(self.leilao)
@@ -27,10 +27,10 @@ class TestAvaliador(TestCase):
 
     def test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente(self):
 
-        self.leilao.lances.append(self.lance_do_beni)
+        self.leilao.propoe(self.lance_do_beni)
         self.daniel = Usuario("Daniel")
         self.lance_do_daniel = Lance(self.daniel, 150.00)
-        self.leilao.lances.append(self.lance_do_daniel)
+        self.leilao.propoe(self.lance_do_daniel)
 
         avaliador = Avaliador()
         avaliador.avalia(self.leilao)
@@ -45,7 +45,7 @@ class TestAvaliador(TestCase):
         lance = Lance(self.beni, 150.0)
 
         leilao = Leilao("Celular")
-        leilao.lances.append(lance)
+        leilao.propoe(lance)
 
         avaliador = Avaliador()
         avaliador.avalia(leilao)
@@ -63,9 +63,9 @@ class TestAvaliador(TestCase):
 
         leilao = Leilao("Celular")
 
-        leilao.lances.append(lance_do_bruno)
-        leilao.lances.append(lance_do_daniel)
-        leilao.lances.append(lance_do_beni)
+        leilao.propoe(lance_do_bruno)
+        leilao.propoe(lance_do_daniel)
+        leilao.propoe(lance_do_beni)
 
         menor_valor_esperado = 90.0
         maior_valor_esperado = 150.0
