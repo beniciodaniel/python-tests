@@ -35,6 +35,9 @@ class Leilao:
 
             self.__lances.append(lance)
 
+        else:
+            raise ValueError('O mesmo usuário não pode propor dois lances seguidos.')
+
     @property
     def lances(self):
         return self.__lances[:]
