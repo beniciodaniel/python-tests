@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1fd351f9-d33a-4b64-a124-f997060fc03b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/dominio.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/dominio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/test_avaliador.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/test_leilao.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,23 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48342246">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/leilao/dominio.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
-                  <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/leilao/test_avaliador.py">
+            <entry file="file://$PROJECT_DIR$/src/leilao/test_leilao.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="181">
-                  <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+                <state relative-caret-position="872">
+                  <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -38,12 +31,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/leilao/principal.py">
+            <entry file="file://$PROJECT_DIR$/src/leilao/dominio.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="53" selection-start-column="53" selection-end-column="53" />
+                <state relative-caret-position="630">
+                  <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -67,8 +60,9 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/leilao/principal.py" />
-        <option value="$PROJECT_DIR$/src/leilao/dominio.py" />
         <option value="$PROJECT_DIR$/src/leilao/test_avaliador.py" />
+        <option value="$PROJECT_DIR$/src/leilao/test_leilao.py" />
+        <option value="$PROJECT_DIR$/src/leilao/dominio.py" />
       </list>
     </option>
   </component>
@@ -135,8 +129,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_avaliador.TestAvaliador">
-    <configuration name="Unittests for test_avaliador.TestAvaliador" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo">
+    <configuration name="principal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leilao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leilao/principal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for src.leilao.test_leilao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +163,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador&quot;" />
+      <option name="_new_target" value="&quot;src.leilao.test_leilao&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_crescente" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for src.leilao.test_leilao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +178,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_crescente&quot;" />
+      <option name="_new_target" value="&quot;src.leilao.test_leilao&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_leilao.TestLeilao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +193,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente&quot;" />
+      <option name="_new_target" value="&quot;test_leilao.TestLeilao&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_quando_tiver_tres_lances" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_lance_caso_o_leilao_nao_tenha_lances" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,11 +208,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_quando_tiver_tres_lances&quot;" />
+      <option name="_new_target" value="&quot;test_leilao.TestLeilao.test_deve_permitir_propor_lance_caso_o_leilao_nao_tenha_lances&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_um_lance_caso_o_ultimo_usuario_seja_diferente" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,17 +223,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance&quot;" />
+      <option name="_new_target" value="&quot;test_leilao.TestLeilao.test_deve_permitir_propor_um_lance_caso_o_ultimo_usuario_seja_diferente&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leilao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador" />
-        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_crescente" />
-        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente" />
-        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance" />
-        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_quando_tiver_tres_lances" />
+        <item itemvalue="Python tests.Unittests for test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo" />
+        <item itemvalue="Python tests.Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_um_lance_caso_o_ultimo_usuario_seja_diferente" />
+        <item itemvalue="Python tests.Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_lance_caso_o_leilao_nao_tenha_lances" />
+        <item itemvalue="Python tests.Unittests for test_leilao.TestLeilao" />
+        <item itemvalue="Python.principal" />
       </list>
     </recent_temporary>
   </component>
@@ -234,29 +265,12 @@
       <workItem from="1577226370801" duration="146000" />
       <workItem from="1577226645460" duration="8489000" />
       <workItem from="1577295575803" duration="5517000" />
-      <workItem from="1577660629114" duration="2795000" />
+      <workItem from="1577660629114" duration="3533000" />
+      <workItem from="1577711986287" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_avaliador_TestAvaliador - 2019.12.29 at 21h 50m 06s.xml">
-      <configuration name="Unittests for test_avaliador.TestAvaliador" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_avaliador_TestAvaliador - 2019.12.29 at 22h 06m 47s.xml">
-      <configuration name="Unittests for test_avaliador.TestAvaliador" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_maior_e_o_menor_valor_quando_tiver_tres_lances - 2019.12.29 at 22h 09m 05s.xml">
-      <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_quando_tiver_tres_lances" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance - 2019.12.29 at 22h 09m 34s.xml">
-      <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_avaliador_TestAvaliador - 2019.12.29 at 22h 09m 55s.xml">
-      <configuration name="Unittests for test_avaliador.TestAvaliador" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente - 2019.12.29 at 22h 10m 02s.xml">
-      <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_crescente - 2019.12.29 at 22h 10m 05s.xml">
       <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_crescente" configurationId="tests" />
     </history-entry>
@@ -269,19 +283,38 @@
     <history-entry file="Unittests_for_test_avaliador_TestAvaliador - 2019.12.29 at 22h 11m 58s.xml">
       <configuration name="Unittests for test_avaliador.TestAvaliador" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_leilao_TestLeilao - 2019.12.30 at 11h 11m 18s.xml">
+      <configuration name="Unittests for test_leilao.TestLeilao" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_leilao_TestLeilao_test_deve_permitir_propor_lance_caso_o_leilao_nao_tenha_lances - 2019.12.30 at 11h 18m 16s.xml">
+      <configuration name="Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_lance_caso_o_leilao_nao_tenha_lances" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_leilao_TestLeilao_test_deve_permitir_propor_um_lance_caso_o_ultimo_usuario_seja_diferente - 2019.12.30 at 11h 29m 47s.xml">
+      <configuration name="Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_um_lance_caso_o_ultimo_usuario_seja_diferente" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_leilao_TestLeilao_test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo - 2019.12.30 at 11h 49m 27s.xml">
+      <configuration name="Unittests for test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_leilao_TestLeilao_test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo - 2019.12.30 at 11h 50m 19s.xml">
+      <configuration name="Unittests for test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_leilao_TestLeilao_test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo - 2019.12.30 at 11h 50m 30s.xml">
+      <configuration name="Unittests for test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16947000" />
+    <option name="totallyTimeSpent" value="19500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-540" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20532168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20691025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21861152" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21861152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22230428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,7 +323,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.20901033" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20901033" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32925898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -305,14 +338,18 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_leilao_TestLeilao.coverage" NAME="Unittests for test_leilao.TestLeilao Coverage Results" MODIFIED="1577711478317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador_test_avalia.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_avalia Coverage Results" MODIFIED="1577283292690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_decrescente Coverage Results" MODIFIED="1577664602138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
-    <SUITE FILE_PATH="coverage/python_tests$principal.coverage" NAME="principal Coverage Results" MODIFIED="1577300554035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
+    <SUITE FILE_PATH="coverage/python_tests$principal.coverage" NAME="principal Coverage Results" MODIFIED="1577666969077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
+    <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_leilao_TestLeilao_test_deve_permitir_propor_um_lance_caso_o_ultimo_usuario_seja_diferente.coverage" NAME="Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_um_lance_caso_o_ultimo_usuario_seja_diferente Coverage Results" MODIFIED="1577712587132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_mesmo_valor_para_maior_e_menor_quando_tiver_somente_um_lance Coverage Results" MODIFIED="1577664574154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
+    <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_leilao_TestLeilao_test_deve_permitir_propor_lance_caso_o_leilao_nao_tenha_lances.coverage" NAME="Unittests for test_leilao.TestLeilao.test_deve_permitir_propor_lance_caso_o_leilao_nao_tenha_lances Coverage Results" MODIFIED="1577711895887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/python_tests$Unittests_in_test_avaliador_py.coverage" NAME="Unittests in test_avaliador.py Coverage Results" MODIFIED="1577300604568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_maior_e_o_menor_valor_quando_tiver_tres_lances.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_quando_tiver_tres_lances Coverage Results" MODIFIED="1577664545594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador_test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_crescente.coverage" NAME="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_numero_quando_adicionados_em_ordem_crescente Coverage Results" MODIFIED="1577664714793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
     <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_avaliador_TestAvaliador.coverage" NAME="Unittests for test_avaliador.TestAvaliador Coverage Results" MODIFIED="1577664718244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
+    <SUITE FILE_PATH="coverage/python_tests$Unittests_for_test_leilao_TestLeilao_test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo.coverage" NAME="Unittests for test_leilao.TestLeilao.test_nao_deve_permitir_propor_lance_caso_usuario_seja_o_mesmo Coverage Results" MODIFIED="1577713987066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leilao" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -327,25 +364,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leilao/principal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        <state relative-caret-position="294">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leilao/test_leilao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leilao/dominio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leilao/test_avaliador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
