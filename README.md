@@ -1,2 +1,2 @@
-# tests in Python
-Implementing automated tests by programming a type of a auction.
+# Tests in Python
+Implementing automated testing for auction logic.
