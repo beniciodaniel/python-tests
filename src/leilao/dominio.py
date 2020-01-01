@@ -1,5 +1,3 @@
-from sys import float_info
-
 class Usuario:
 
     def __init__(self, nome, carteira):
@@ -7,7 +5,7 @@ class Usuario:
         self.__carteira = carteira
 
     def propoe_lance(self, leilao, valor):
-        if valor > self.__carteira:
+        if self._valor_eh_valido(valor):
             raise ValueError('Não pode propor lance com um valor maior que o valor da carteira')
         lance = Lance(self, valor)
         leilao.propoe(lance)
@@ -21,6 +19,10 @@ class Usuario:
     def carteira(self):
         return self.__carteira
 
+    def _valor_eh_valido(self, valor):
+        return valor > self.__carteira
+
+
 class Lance:
 
     def __init__(self, usuario, valor):
@@ -33,17 +35,15 @@ class Leilao:
     def __init__(self, descricao):
         self.descricao = descricao
         self.__lances = []
-        self.maior_lance = float_info.min
-        self.menor_lance = float_info.max
+        self.maior_lance = 0.0
+        self.menor_lance = 0.0
 
     def propoe(self, lance: Lance):
-        if not self.__lances or self.__lances[-1].usuario != lance.usuario and self.__lances[-1].valor < lance.valor:
-            if lance.valor > self.maior_lance:
-                self.maior_lance = lance.valor
-
-            if lance.valor < self.menor_lance:
+        if self._lance_eh_valido(lance):
+            if not self._tem_lances():
                 self.menor_lance = lance.valor
 
+            self.maior_lance = lance.valor
             self.__lances.append(lance)
 
         else:
@@ -52,3 +52,16 @@ class Leilao:
     @property
     def lances(self):
         return self.__lances[:]
+
+    def _tem_lances(self):
+        return self.__lances
+
+    def _usuarios_diferentes(self, lance):
+        return self.__lances[-1].usuario != lance.usuario
+
+    def _valor_maior_que_o_lance_anterior(self, lance):
+        return self.__lances[-1].valor < lance.valor
+
+    def _lance_eh_valido(self, lance):
+        return not self._tem_lances() or (self._usuarios_diferentes(lance) and
+                                          self._valor_maior_que_o_lance_anterior(lance))
