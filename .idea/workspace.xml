@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd351f9-d33a-4b64-a124-f997060fc03b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leilao/dominio.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/dominio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_leilao.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_leilao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_usuario.py" afterDir="false" />
-    </list>
+    <list default="true" id="1fd351f9-d33a-4b64-a124-f997060fc03b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +27,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/leilao/dominio.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="911">
-                  <caret line="67" column="78" lean-forward="true" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
+                <state relative-caret-position="379">
+                  <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
@@ -278,7 +273,7 @@
       <workItem from="1577711986287" duration="2168000" />
       <workItem from="1577728944685" duration="2159000" />
       <workItem from="1577752062112" duration="3157000" />
-      <workItem from="1577827652949" duration="3507000" />
+      <workItem from="1577827652949" duration="3600000" />
     </task>
     <servers />
   </component>
@@ -315,18 +310,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28676000" />
+    <option name="totallyTimeSpent" value="28769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-540" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18467037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21861152" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21861152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22230428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,7 +329,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38109306" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38109306" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32925898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leilao/dominio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="67" column="78" lean-forward="true" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
+        <state relative-caret-position="379">
+          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
         </state>
       </provider>
     </entry>
